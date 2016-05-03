@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+header h1{
+	text-align: center;
+	font-family: Segoe UI;
+	margin: 0px;
+	background-color: #F5F5F5;
+
+}
+header{
+	width: 100%;
+}
+.header{
+	z-index: 1;
+	background:rgba(255,255,255,.85);
+}
+
+section{
+	width: 100%;
+}
+
+.center{
+	text-align: center;
+}
+
+.nav-wrapper{
+	width: 100%;
+	float: left;
+}
+.nav{
+	right: 5rem;
+	width: 78.99954%;
+}
+.image{
+	border: solid;
+	margin-top: 1em;
+}
+.img-responsive{
+	width: 45%;
+	height: auto;
+}
