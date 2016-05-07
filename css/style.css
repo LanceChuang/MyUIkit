@@ -2,13 +2,31 @@ body {
     margin: 0;
     background-color: #1B1B21;
 }
-.container > .header{
-    padding-bottom:10px;
-    color:hsla(240, 0%, 50%, 0.6);
+
+@media (max-width:786px) {
+    article{
+        display:block;
+    }
+    header, h1{
+        color:aqua;
+        font:bold;
+    }
+    img{
+        max-width:97%;
+    }
+   
+}
+
+@media screen and (min-width:1000px){
+
+.container > .header {
+    padding-bottom: 10px;
+    color: hsla(240, 0%, 50%, 0.6);
     z-index: 12;
 }
+
 .item-main {
-    position:absolute;
+    position: absolute;
 }
 
 .leftLayout {
@@ -20,9 +38,11 @@ body {
     width: 574px;
     left: 574px;
 }
-article{
-    color:white;
+
+article {
+    color: white;
 }
+
 header h1 {
     text-align: center;
     font-family: Segoe UI;
@@ -31,7 +51,7 @@ header h1 {
 
 header {
     width: 100%;
-    color:white;
+    color: white;
 }
 
 
@@ -61,4 +81,5 @@ section {
 .img-responsive {
     width: 45%;
     height: auto;
+}
 }
